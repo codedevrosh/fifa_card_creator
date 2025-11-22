@@ -9,16 +9,16 @@ This folder contains the trained machine learning models used in the Streamlit a
 
 ---
 
-## ⚠ Important Notes
+##  Important Notes
 
 - Both models were trained using **Scikit-Learn Pipelines**.
 - They contain custom preprocessing steps.  
 
-  ## 🔗 Hugging Face Model Repository
+##  Hugging Face Model Repository
 
 All model files are hosted on Hugging Face and automatically downloaded in the Streamlit app:
 
-👉 https://huggingface.co/codedevrosh/fifa_card_creator
+ https://huggingface.co/codedevrosh/fifa_card_creator
 
 The app uses this code to download models:
 ```python
