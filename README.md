@@ -52,4 +52,5 @@ It provides an interactive FIFA card generator and serves as a great example of 
 ##  Author
 
 Arockia Roshan A
+
 Data Science Enthusiast | ML Developer
