@@ -4,8 +4,8 @@ This folder contains the trained machine learning models used in the Streamlit a
 
 | File Name | Description | Format |
 |-----------|-------------|--------|
-| `classification_pipeline.pkl` | Predicts the player **role** (Attacker / Defender / Midfielder / Goalkeeper) based on input attributes | Joblib pickle |
-| `regression_pipeline.pkl`     | Predicts the **overall rating** of the player (0–99 scale) | Joblib pickle |
+| `classification_pipeline.pkl` | Predicts the player **role** (Attacker / Defender / Midfielder / Goalkeeper) based on input attributes |  pickle |
+| `regression_pipeline.pkl`     | Predicts the **overall rating** of the player (0–99 scale) | pickle |
 
 ---
 
