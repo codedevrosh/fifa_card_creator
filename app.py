@@ -13,12 +13,12 @@ import joblib
 # ------------------------------
 file = hf_hub_download(
     repo_id="codedevrosh/fifa_card_creator",
-    filename="classification_pipeline.pkl"
+    filename="models/classification_pipeline.pkl"
 )
 role_model = joblib.load(file)
 file = hf_hub_download(
     repo_id="codedevrosh/fifa_card_creator",
-    filename="regression_pipeline.pkl"
+    filename="models/regression_pipeline.pkl"
 )
 overall_model = joblib.load(file)
 # ------------------------------
@@ -253,4 +253,5 @@ if st.button("Generate Card"):
         byte_im = buf.getvalue()
 
 st.markdown("---")
+
 
