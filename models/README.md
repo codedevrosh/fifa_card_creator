@@ -24,6 +24,6 @@ The app uses this code to download models:
 ```python
 file = hf_hub_download(
     repo_id="codedevrosh/fifa_card_creator",
-    filename="models/classification_pipeline.pkl"
+    filename="models/classification_pipeline & regression_pipeline .pkl"
 )
 role_model = joblib.load(file)
