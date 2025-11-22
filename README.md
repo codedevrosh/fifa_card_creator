@@ -48,3 +48,8 @@ fifa_card_creator/
 ## Conclusion
 This project demonstrates how machine learning can be deployed in a real-world web application using Streamlit, Hugging Face, and GitHub CI/CD.
 It provides an interactive FIFA card generator and serves as a great example of end-to-end ML deployment.
+
+##  Author
+
+Arockia Roshan A
+Data Science Enthusiast | ML Developer
