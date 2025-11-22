@@ -6,6 +6,7 @@ The app predicts:
 - Card **rarity (Gold / Silver / Bronze / Icon)**
 
 ##  Project Structure
+```
 fifa_card_creator/
 ├── app.py                          # Main Streamlit application
 ├── requirements.txt                # Dependencies for deployment
@@ -18,7 +19,7 @@ fifa_card_creator/
 │  └── fifa20_cluster.ipynb         # FIFA player clustering analysis
 │
 └── README.md                       # Project documentation
-
+```
 ##  Technologies Used
 
 | Category | Tools |
