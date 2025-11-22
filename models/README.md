@@ -13,11 +13,17 @@ This folder contains the trained machine learning models used in the Streamlit a
 
 - Both models were trained using **Scikit-Learn Pipelines**.
 - They contain custom preprocessing steps.  
-  ⚠ If the custom classes are not available in the server, `joblib.load()` may fail.
-- The models are hosted on **Hugging Face Hub** and downloaded during runtime:
-  ```python
-  file = hf_hub_download(
-      repo_id="codedevrosh/fifa_card_creator",
-      filename="models/classification_pipeline.pkl"
-  )
-  model = joblib.load(file)
+
+  ## 🔗 Hugging Face Model Repository
+
+All model files are hosted on Hugging Face and automatically downloaded in the Streamlit app:
+
+👉 https://huggingface.co/codedevrosh/fifa_card_creator
+
+The app uses this code to download models:
+```python
+file = hf_hub_download(
+    repo_id="codedevrosh/fifa_card_creator",
+    filename="models/classification_pipeline.pkl"
+)
+role_model = joblib.load(file)
